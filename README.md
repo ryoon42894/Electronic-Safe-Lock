@@ -1,1 +1,2 @@
 # Electronic-Safe-Lock
+20x4 LCD will prompt user to set up passcode, enter passcode with feature to change current passcode. A software debounced, double buffered Key Matrix Scanner made from interfacing an Altera Cyclone IV rz easyfpga a2.2 dev board with a 4x4 keypad will output the pressed key iva SPI to an Arduino Zero. The Arduino will set up the menus, display key presses, check passcodes turn the lock and alarm on/off.
